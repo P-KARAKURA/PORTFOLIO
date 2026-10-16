@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aime SERGE MUSERUKA, aspiring UI/UX designer and web developer building accessible, user-friendly websites.">
+  <title>Aime SERGE MUSERUKA | UI/UX Designer and Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style2.css">
+
+  <script>
+    document.documentElement.classList.add('js');
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('anim');
+    }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" data-intro>
+    <div class="nav__inner container">
+      <a href="#home" class="nav__logo">Aime SERGE <span>MUSERUKA</span></a>
+
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu" class="nav__links" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="hero__inner container">
+        <div class="hero__text">
+          <h1 data-intro><span class="line">Aime SERGE</span> <span class="line">MUSERUKA</span> <span class="line accent">Connecting People.</span></h1>
+          <h2 data-intro aria-label="I'm an aspiring UI/UX designer, front-end web developer, photographer, multilingual communicator, and community learning supporter">I'm <span class="typed" aria-hidden="true"
+              data-roles="an aspiring UI/UX designer|a front-end web developer|a photographer and visual storyteller|a multilingual communicator|a community learning supporter"
+              data-photos="portfolio1.JPG">an aspiring UI/UX designer</span><span class="cursor" aria-hidden="true"></span></h2>
+          <p data-intro>I'm Aime SERGE MUSERUKA, an aspiring Entrepreneur and multilingual communicator.
+            I combine technology, creativity, and language to create meaningful digital experiences and tell stories that connect people.</p>
+
+          <div class="hero__buttons">
+            <a href="#portfolio" class="btn btn--primary" data-intro>View my work</a>
+            <a href="assets/cv.pdf" class="btn btn--outline" download data-intro>Download CV</a>
+          </div>
+
+          <ul class="social" aria-label="Social links" data-intro>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="hero__photo">
+          <span class="hero__glow" aria-hidden="true" data-intro></span>
+          <span class="hero__outline" aria-hidden="true" data-intro></span>
+          <div class="hero__frame" data-intro>
+            <img src="portfolio1.JPG" alt="Portrait of Aime SERGE MUSERUKA">
+          </div>
+          <div class="badge" data-intro>
+            <span class="badge__dot" aria-hidden="true"></span>
+            <div>
+              <small>Based in</small>
+              <strong>Rwanda</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section section--blue">
+      <div class="about container">
+        <figure class="about__photo reveal">
+          <img src="April Bukavu.png" alt="Aime SERGE MUSERUKA">
+        </figure>
+
+        <div class="about__text reveal">
+          <p class="section__label">Get to know me</p>
+          <h2 class="section__title">About me</h2>
+          <h3>Who am I?</h3>
+          <p>I'm Aime SERGE MUSERUKA, and my journey into technology began with curiosity.
+             I'm learning web development and UI/UX design, practicing step by step and taking on challenges with persistence.
+              Alongside technology, I bring photography, translation, and community learning, communicating fluently in Kinyarwanda, English, French, 
+              and Kiswahili. These strengths support one another: design shapes experience, code brings functionality, photography tells stories,
+               and language connects people. Through HABLOCLASS, a peer-learning initiative founded in 2023, 
+               I share knowledge with fellow learners.</p>
+
+          <dl class="details">
+            <div><dt>Name</dt><dd>Aime SERGE MUSERUKA</dd></div>
+            <div><dt>Email</dt><dd>seremus01@gmail.com</dd></div>
+            <div><dt>From</dt><dd>Rwanda</dd></div>
+            <div><dt>Focus</dt><dd>UI/UX and web development</dd></div>
+          </dl>
+
+          <a href="assets/cv.pdf" class="btn btn--primary" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="section__label">Services I offer</p>
+        <h2 class="section__title">My services</h2>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__num">01</span>
+            <h3>Language & Interpretation</h3>
+            <p>Professional multilingual communication, translation, and interpretation support bridging French, Swahili, and English.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">02</span>
+            <h3>UX thinking</h3>
+            <p>User-centered design that starts with the people who will use the website.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">03</span>
+            <h3>Web development</h3>
+            <p>HTML for structure, CSS for layout and style, and JavaScript for interactivity, including Local Storage and basic debugging.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">04</span>
+            <h3>Identifying Value Opportunities</h3>
+            <p>Seeing solutions where others see challenges. Successful initiatives begin by identifying real community or market needs.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">05</span>
+            <h3>Visual Arts & Photography</h3>
+            <p>Visual Arts, Painting & Photography combine the foundational principles of color theory, composition, texture, and visual emotion with real-world light and authentic cultural storytelling—capturing living moments and heritage to bring profound depth to visual media.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">06</span>
+            <h3>Branding</h3>
+            <p>Consistent color, type, and photography that help a story feel clear and connected.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RESUME ================= -->
+    <section id="resume" class="section section--blue">
+      <div class="container">
+        <p class="section__label">Check out my resume</p>
+        <h2 class="section__title">Resume</h2>
+
+        <div class="resume">
+          <div class="reveal">
+            <h3 class="resume__heading">Education</h3>
+            <ol class="timeline">
+              <li>
+                <h4>Front-End Web Development</h4>
+                <span>Self-Taught & Peer Learning / 2023 - Present</span>
+                <p>Focused on HTML5, CSS3, JavaScript, responsive design, and accessibility.</p>
+              </li>
+              <li>
+                <h4>UI/UX & Digital Design</h4>
+                <span>Online Learning / 2023 - Present</span>
+                <p>User research, wireframing, component design, and prototyping with Figma.</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="reveal">
+            <h3 class="resume__heading">Experience</h3>
+            <ol class="timeline">
+              <li>
+                <h4>Founder & Coordinator, HABLOCLASS</h4>
+                <span>Peer-Learning Initiative / 2023 - Present</span>
+                <p>Leading peer workshops in digital skills, communication practice, and coding.</p>
+              </li>
+              <li>
+                <h4>Founder, LAMPSTAND</h4>
+                <span>Creative & Digital Platform / 2023 - Present</span>
+                <p>Integrating African art, cultural photography, storytelling, and digital development.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <p class="section__label skills__label">My level of knowledge</p>
+        <h2 class="section__title">My skills</h2>
+
+        <div class="skills reveal">
+          <div class="skill">
+            <div class="skill__head"><span class="skill__name">Public Speaking and Languages Interpretation</span><span class="skill__value">90%</span></div>
+            <div class="bar" aria-hidden="true"><span style="--level: 90%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__head"><span class="skill__name">Current Coding Class</span><span class="skill__value">55%</span></div>
+            <div class="bar" aria-hidden="true"><span style="--level: 55%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__head"><span class="skill__name">Photography and Design</span><span class="skill__value">70%</span></div>
+            <div class="bar" aria-hidden="true"><span style="--level: 70%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__head"><span class="skill__name">Interpreneurship& Projects management</span><span class="skill__value">85%</span></div>
+            <div class="bar" aria-hidden="true"><span style="--level: 85%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__head"><span class="skill__name">Digital Marketing</span><span class="skill__value">45%</span></div>
+            <div class="bar" aria-hidden="true"><span style="--level: 45%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__head"><span class="skill__name">Accessibility</span><span class="skill__value">100%</span></div>
+            <div class="bar" aria-hidden="true"><span style="--level: 100%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <p class="section__label">Showcasing my best work</p>
+        <h2 class="section__title">Portfolio</h2>
+
+        <div class="projects">
+          <a class="project reveal" href="#">
+            <div class="project__img6"></div>
+            <h3>LAMPSTAND</h3>
+            <p>Lampstand is a refugee-led initiative empowering people 
+                through learning, coding, and creativity.
+               It transforms community
+              talents into practical skills, opportunities, and self-reliance.</p>
+          </a>
+          <a class="project reveal" href="#">
+            <div class="project__img5"></div>
+            <h3>HABLOCLASS</h3>
+            <p>HABLOCLASS is a peer-learning program under Lampstand that facilitates English-language learning, communication practice,
+                 digital skills, and coding. 
+                Through collaboration and mutual support, it empowers learners to build confidence, develop practical skills, and grow together.
+                
+            </p>
+          </a>
+          <!-- <a class="project reveal" href="#">
+            <div class="project__img1"></div>
+            <h3>Horizon University</h3>
+            <p>Web design</p>
+          </a> -->
+          <a class="project reveal" href="#">
+            <div class="project__img2"></div>
+            <h3>ASTELLA Business Group</h3>
+            <p>ASTELLA is a youth-focused investment initiative that helps entrepreneurs turn their ideas into action. It aims to connect young people with guidance, resources, 
+                and investment opportunities to build sustainable businesses, create jobs, and strengthen self-reliance in their communitie </p>
+          </a>
+          <!-- <a class="project reveal" href="#"> -->
+            <!-- <div class="project__img3"></div>
+            <h3>Personal portfolio</h3>
+            <p>My skills, journey, and creative work</p>
+          </a> -->
+          <!-- <a class="project reveal" href="#">
+            <div class="project__img4"></div>
+            <h3></h3>
+            <p>Web design</p>
+          </a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section section--blue">
+      <div class="container">
+        <p class="section__label">Feel free to contact me</p>
+        <h2 class="section__title">Get in touch</h2>
+
+        <div class="contact">
+          <form class="form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <h3>Message me</h3>
+
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn--primary">Send message</button>
+          </form>
+
+          <div class="info reveal">
+            <h3>Contact info</h3>
+            <p>I'm open to employment opportunities, freelance projects, photography assignments, translation and communication work, design and development collaborations, and community learning initiatives. Feel free to reach out.</p>
+            <dl>
+              <div><dt>Name</dt><dd>Aime SERGE MUSERUKA</dd></div>
+              <div><dt>Location</dt><dd>Rwanda</dd></div>
+              <div><dt>Email</dt><dd>seremus01@gmail.com</dd></div>
+              <div><dt>Phone</dt><dd>+250788268753</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Aime SERGE MUSERUKA. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
